@@ -1,0 +1,223 @@
+body{
+   max-width:1020px;
+   height: 100%;
+   margin: 0 auto; 
+   font-family: 'Myriad pro', Sans-serif;
+}
+img{
+	margin: 0 auto;
+}
+p{
+	font-size: 12px;
+	color: #989898;
+	line-height: 16px;
+	padding-left: 10px;
+}
+a{
+	text-decoration: none;
+	font-size:16px;
+	font-weight: 400; 
+}
+#center-nav-main{
+	width: 100%;
+	height: auto;
+}
+.head-main ul{
+	list-style: none;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0;
+}
+.head-main ul li{
+	display: inline-block;
+	padding: 10px 30px;
+	position: relative;
+}
+.head-main ul li a{
+	color: #555555;
+
+}
+ul li:hover a{
+	color: #fdd241;
+}
+ul li:hover span.icon{
+	background-position-x:-30px;
+}
+.icon{
+	background: url(../images/sprite.png)no-repeat;
+	width: 30px;
+	height: 30px;
+	display:block;
+	margin-bottom: 5px;
+	background-position: 0 0;
+	top: 4px;
+	left: -4px;
+	position: absolute;
+}
+.icon-home{
+	background-position: 0 0;
+}
+.icon-photo{
+background-position: 0px -30px;
+right:20px;
+}
+.icon-video{
+background-position: 0px -60px;
+}
+.icon-other{
+background-position: 0px -90px;
+}
+.icon-travel{
+background-position: 0px -120px;
+}
+.icon-adent{
+background-position: 0px -150px;
+}
+.icon-tele{
+background-position: 0px -178px;
+}
+.icon-kids{
+background-position: 0px -208px;
+}
+article{
+	display: table-row;
+	width: 100%;
+}
+#main-video{
+	width:70%;
+	display: table-cell;
+}
+.left-main{
+	width: 25%;
+	display: table-cell;
+}
+.center-video{
+	width: 70%;
+	display: table-cell;
+}
+.left-main a{
+	color: #777;
+	font-size: 12px;
+	font-weight: 500;
+}
+.left-main table span {
+    position: static;
+    display: inline-block;
+    margin: 0;
+}
+.left-main table{
+	text-align: center;
+	vertical-align: bottom;
+ 	margin-left: -9px;
+}
+.left-main td{
+	padding: 10px 10px;
+	position: relative;
+	border:1px solid #eee;
+}
+/*.left-main td:before{
+	content: "";
+	background: url(../images/sprite.png)no-repeat;
+	width: 30px;
+	height: 30px;
+	background-position: 0 0;
+	position: absolute;
+}*/
+
+.icon-news{
+	background-position: 0 -240px;
+}
+.icon-magazine{
+		background-position: 0 -270px;
+}
+.icon-maps{
+		background-position: 0 -300px;
+}
+.icon-adent{
+		background-position: 0 -330px;
+}
+.icon-educ{
+		background-position: 0 -360px;
+}
+.icon-games{	
+	background-position: 0 -390px;}
+.icon-event{
+		background-position: 0 -420px;
+}
+.icon-blog{
+		background-position: 0 -450px;
+}
+.icon-exp{
+		background-position: 0 -480px;
+}
+.icon-trips{
+		background-position: 0 -510px;
+}
+table tr td:hover a{
+	color: #fff;
+}
+table tr td:hover span.icon{
+	background-position-x:-30px;
+}
+table tr td:hover{
+	background: #777;
+}
+.aticle-content{
+	display: inline-block;
+	width: 47%;
+}
+.aticle-content h3{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #777;
+}
+.aticle-content span{
+	font-size: 11px;
+	color: #a0a0a0;
+}
+.aticle-content>p{
+	padding-left: 10px;
+}
+.aticle-content img{
+	width: 100%;
+}
+.aticle-content .aticle-content-img{
+	background: #fbfbfb;
+	border: 1px solid #eee;
+	padding: 10px;
+    width: 90%;
+    margin: 7px auto;
+}
+.aticle-content{
+	border: 1px solid #eee;
+	margin: 0 10px 10px 0;
+}
+#right-main-news{
+	width: 30%;
+	display: table-cell;
+}
+.aticle-content-right{
+	width: 100%;
+	border: none;
+}
+.news {
+    position: relative;
+    border: 1px solid #eee;
+    width: 90%;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+.news > p{
+	width: 90%;
+	margin: 10px auto;
+}
+.news-img{
+	background: url(../images/sprite.png)no-repeat;
+	width: 18px;
+	height: 18px;
+	background-position: 0 -540px;
+	position: absolute;
+	top: 6px;
+    left: 10px;
+}
